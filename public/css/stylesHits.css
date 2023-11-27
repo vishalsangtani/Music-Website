@@ -1,0 +1,40 @@
+a {
+    color: #08172f;
+    text-decoration: none;
+  }
+.big-song-img{
+   width:250px;
+   height:250px;
+   object-fit:cover;
+   margin-left: 80px;
+   margin-bottom: 10px;
+}
+.big-song-hover{
+    position: absolute;
+    background-color:#050000;
+    left:0px; 
+    top:0px; 
+    width:200px;
+    height: 200px;
+    opacity: 0;
+ }
+ .big-song-hover i{
+    left:100%;
+    right: 50%;
+    top:50%; 
+    position:absolute;
+    transform:translate(-50%,-50%);
+ 
+ }
+ .footer{
+   margin-top: 50px;
+   background-color: #08172f 
+ }
+ .song-category-title::after{
+   content: "";
+   background-color:#08172f ;
+   background: linear-gradient(90deg, #08172f 21%, #1f4684 42%, #285fb8 61%, #214e97 83%);
+   height:2px ;
+   display: block ;
+   margin-top: 15px ;
+}

@@ -1,0 +1,195 @@
+a {
+  color: #08172f;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #1b2839;
+}
+
+.mainnav .active::after {
+  content: '';
+  display: block;
+  text-align: center;
+}
+
+.container {
+  min-height: 78vh;
+  color: white;
+  display: flex;
+  margin: 23px auto;
+  width: 100%;
+  padding: 30px;
+}
+
+.songList {
+  width: 100%;
+}
+
+.bottom {
+  position: sticky;
+  height: 90px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#currentEnd {
+  font-size: 15px;
+}
+
+#currentStart {
+  margin-right: 910px;
+  font-size: 15px;
+}
+
+.icons {
+  margin-bottom: 35px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+i {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#myProgressBar {
+  margin-top: 30px;
+  width: 70vw;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 25px;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  text-align: left;
+  color: black;
+  margin: 13px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.songName {
+  text-align: left;
+  width: 75%;
+  font-size: 20px;
+}
+
+.songItem img {
+  width: 40px;
+  margin: 0 24px;
+  border-radius: 5px;
+}
+
+.timestamp {
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.timestamp i {
+  cursor: pointer;
+
+}
+
+.songInfo {
+  margin-top: 16px;
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  left: 14vw;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+img.animated-gif {
+  width: 58px;
+  height: auto;
+}
+
+#masterSongName {
+  font-size: x-large;
+}
+
+.footer {
+  height: 500px;
+  background-color: #08172f;
+}
+
+.song-category-title::after {
+  content: "";
+  background-color: #08172f;
+  background: linear-gradient(
+    90deg,
+    #08172f 21%,
+    #1f4684 42%,
+    #285fb8 61%,
+    #214e97 83%
+  );
+  height: 1px;
+  display: block;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.contentSpacing {
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  max-width: none;
+  padding-bottom: 80px;
+  position: relative;
+  height: 30vh;
+  max-height: 400px;
+  min-height: 340px;
+}
+
+.ABC {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.CONTENT {
+  font-family: sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  justify-content: flex-end;
+  z-index: 0;
+  align-content: space-between;
+  margin-left: 300px;
+}
+
+#ARTIST-IMG {
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+  margin-top: 45px;
+  margin-left: 25px;
+}
+
+hr {
+  color: #08172f;
+}
+#songImg{
+  height: 55px;
+  width: 55px;
+}

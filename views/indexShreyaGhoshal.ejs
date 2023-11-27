@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This Is Shreya Ghoshal | MeloVerse Playlist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="/css/stylesArijitSingh.css">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="images/icon">
+</head>
+<body class="body" style="background-color: #dce6f1">
+  <nav class="mainnav  shadow navbar-expand-lg navbar navbar-dark" style="background-color: #08172f;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/home">
+        <h4><i class="bi bi-ear"></i> MeloVerse</h4>
+      </a>
+      <div>
+        <div class="input-group margin-right: 10%;">
+          <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" style="margin-left: 110px; width: 350px;">
+          <span class="text-white border-0 input-group-text" id="basic-addon2" style="background-color: #75a0c4;"><i class="bi bi-search"></i></span>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/home/topHits/top50Global">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/home/topHits/top50India">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/home/topHits/hits">New releases</a>
+          </li>
+          <li class="nav-item" style="margin-left: 5px;">
+            <% if (username) { %>
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #DDE6ED; color: #08172f; border-radius: 3px;">
+                  Hey! <%= username %>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/">Sign Out</a></li>
+                </ul>
+              </div>
+            <% } else { %>
+              <a href="/signup" class="btn btn-outline-light" style="margin-left: 10px;">Sign up</a>
+              <a href="/login" class="btn btn-light" style="margin-left: 10px; margin-right: 10px;">Log in</a>
+            <% } %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="contentSpacing">
+    <div class="ABC" style="background-color: #8f655d;">
+        <img id="ARTIST-IMG" src="/images/Shreya.jpg">
+    </div>
+    <div class="CONTENT"> 
+      <span class="Type__TypeElement-sc-goli3j-0 ieTwfQ lp9Tfm4rsM9_pfbIE0zd" data-encore-id="type">Playlist</span>
+      <span dir="auto" class="rEN7ncpaUeSGL9z0NGQR" draggable="true" data-testid="entityTitle">
+        <h1 dir="auto" data-encore-id="type" class="Type__TypeElement-sc-goli3j-0 dYGhLW" style="margin: 0.08em 0px 0.12em; visibility: visible; width: 100%; font-size: 4.5rem;">This Is Shreya Ghoshal</h1>
+      </span>
+      <span class="Type__TypeElement-sc-goli3j-0 ieTwfQ jpVuvMOCbpaRr_6FLf3W" data-encore-id="type">
+        <div class="xgmjVLxjqfcXK5BV_XyN fUYMR7LuRXv0KJWFvRZA">This is Shreya Ghoshal. The essential tracks, all in one playlist.</div>
+      </span>
+    </div>
+  </div>
+  <div class="container">
+    <div class="songList">
+      <div class="songItemContainer">
+        <div class="songItem">
+          <img alt="1" id="songImg">
+          <span class="songName">this is song name</span>
+          <span class="songlistplay"><span class="timestamp">06:29</span><i id="1" class="far songItemPlay fa-circle-play fa-lg"></i></span>
+        </div>
+        <hr>
+        <div class="songItem">
+          <img alt="1" id="songImg">
+          <span class="songName">this is song name</span>
+          <span class="songlistplay"><span class="timestamp">06:11</span><i id="2" class="far songItemPlay fa-circle-play fa-lg"></i></span>
+        </div>
+        <hr>
+        <div class="songItem">
+          <img alt="1" id="songImg">
+          <span class="songName">this is song name</span>
+          <span class="songlistplay"><span class="timestamp">04:13</span><i id="3" class="far songItemPlay fa-circle-play fa-lg"></i></span>
+        </div>
+        <hr>
+        <div class="songItem">
+          <img alt="1" id="songImg">
+          <span class="songName">this is song name</span>
+          <span class="songlistplay"><span class="timestamp">03:55</span><i id="4" class="far songItemPlay fa-circle-play fa-lg"></i></span>
+        </div>
+        <hr>
+        <div class="songItem">
+          <img alt="1" id="songImg">
+          <span class="songName">this is song name</span>
+          <span class="songlistplay"><span class="timestamp">04:59</span><i id="5" class="far songItemPlay fa-circle-play fa-lg"></i></span>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+  </div>
+  <footer class=" footer text-center text-lg-start  text-white">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on MeloVerse:</span>
+      </div>
+      <div>
+        <a href="" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+        <a href="" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+        <a href="" class="me-4 text-reset"><i class="fab fa-google"></i></a>
+        <a href="" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Languages    
+                </h6>
+                <p>
+                  <a href="#ln" class="text-reset">English</a>
+                </p>
+                <p>
+                  <a href="#ln" class="text-reset">Hindi</a>
+                </p>
+                <p>
+                  <a href="#ln" class="text-reset">Telgu</a>
+                </p>
+                <p>
+                  <a href="#ln" class="text-reset">Kannada</a>
+                </p>
+            </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Artist</h6>
+            <p>
+              <a href="/home/artists/arijitSingh" class="text-reset">Arijit Singh </a>
+            </p>
+            <p>
+              <a href="/home/artists/pritam" class="text-reset">Pritam</a>
+            </p>
+            <p>
+              <a href="/home/artists/sidhuMoosewala" class="text-reset">Sidhu Moose Wala</a>
+            </p>
+            <p>
+              <a href="/home/artists/diljitDosanjh" class="text-reset">Diljit Dosanjh</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p>
+              CMR Institute of Technology
+              Marathahalli, Bengaluru, Karnataka
+              560037<br>
+              India
+            </p>
+            <p>You can reach us at:
+              <a href="mailto:amku21is@cmrit.ac.in" style="color: white;">amku21is@cmrit.ac.in</a>
+              <a href="mailto:pujh21is@cmrit.ac.in" style="color:white;">pujh21is@cmrit.ac.in</a>
+              <a href="mailto:visa21is@cmrit.ac.in" style="color:white;">visa21is@cmrit.ac.in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+    <span><span id="currentStart">00:00</span><span id="currentEnd">00:00</span></span>
+    <div class="icons">
+      <i class="fa-solid fa-backward fa-2xl" id="previous"></i>
+      <i class="fa-solid fa-play fa-2xl" id="masterPlay"></i>
+      <i class="fa-solid fa-forward fa-2xl" id="next"></i>
+      <i class="fa-solid fa-repeat fa-lg" id="loop"></i>
+    </div>
+    <div class="songInfo">
+      <img src="/images/playingSongGIF.gif" width="38px" alt="" class="animated-gif" id="gif"><span id="masterSongName">Music Title</span>
+    </div>
+  </div>
+  <script src="/js/scriptShreyaGhoshal.js"></script>
+  <script src="https://kit.fontawesome.com/d785de1672.js" crossorigin="anonymous"></script>
+  
+</body>
+</html>

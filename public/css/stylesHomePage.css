@@ -1,0 +1,79 @@
+a {
+   color: #08172f;
+   text-decoration: none;
+ }
+.body{
+   background-color:#1b2839;
+   position: absolute;
+}
+.mainnav .active::after{
+
+   content: '';
+   display: block;
+   text-align: center;
+  
+   
+}
+.c-item{
+   height: 480px;
+   background-size: 100% 100%;
+
+}
+.c-img{
+
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0,6);
+   transition: 2ms;
+   background-size: 100% 100%;
+}
+
+.song-category-title::after{
+
+   content: "";
+   background-color:#08172f ;
+   background: linear-gradient(90deg, #08172f 21%, #1f4684 42%, #285fb8 61%, #214e97 83%);
+   height:1px ;
+   display: block ;
+   margin-top: 15px ;
+   width: 100%;
+}
+
+.song-category-title{
+
+   color:white;
+
+}
+.big-song-hover{
+   position: absolute;
+   background-color:#050000;
+   left:0px; 
+   top:0px; 
+   width:200px;
+   height: 200px;
+   opacity: 0;
+}
+.big-song-hover i{
+   left:50%;
+   top:50%; 
+   position:absolute;
+   transform:translate(-50%,-50%);
+
+}
+.big-song-img{
+   width: 175px;
+   height:175px;
+   object-fit:cover;
+}
+.carousel-inner{
+    height: 600px;
+}
+
+.carousel-item{
+   height: 100% !important;
+   width:  100% !important;
+   border: 1px rgb(15, 15, 93);
+}
+.footer{
+   background-color: #08172f;
+}
