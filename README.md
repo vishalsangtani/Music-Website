@@ -1,0 +1,2 @@
+# Music Streaming Web Application
+This web application allows users to stream and enjoy locally hosted music. It is built using various web development tools, including Express.js, Node.js, MongoDB, and more. This project aims to provide a simple and user-friendly music streaming experience. Users can enjoy their favorite music by streaming locally hosted tracks. The application is built with a modern and responsive design, making it accessible on various devices.
